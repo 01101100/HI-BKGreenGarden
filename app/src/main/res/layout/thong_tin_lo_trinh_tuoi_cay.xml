@@ -20,18 +20,24 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_marginBottom="15dp"
-            android:src="@drawable/nguon_nuoc"/>
+            android:src="@drawable/planning"/>
 
         <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_marginBottom="15dp"
-            android:src="@drawable/khoang_cach"/>
+            android:src="@drawable/nguon_nuoc"/>
 
         <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:src="@drawable/thong_tin"/>
+            android:src="@drawable/vang"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/cay_bang"/>
 
     </LinearLayout>
 
@@ -44,16 +50,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Điểm lấy nước số 2"
+            android:text="Lộ trình tưới cây - 300m"
             android:textSize="20dp"
-            android:textColor="#212121"
+            android:textColor="#FF212121"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Cách bạn 20m"
+            android:text="Tới nguồn nước số 2 - 20m"
             android:textColor="#FF212121"
             android:textSize="20dp"
             android:layout_marginBottom="25dp"
@@ -61,7 +68,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Hoạt động bình thường"
+            android:text="Tới cây thông số 1 - 140m"
+            android:textSize="20dp"
+            android:textColor="#FF212121"
+            android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tới cây bàng số 3 - 140m"
             android:textSize="20dp"
             android:textColor="#FF212121"/>
 
