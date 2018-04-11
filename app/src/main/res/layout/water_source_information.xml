@@ -7,7 +7,7 @@
     android:layout_gravity="bottom"
     android:padding="15dp"
     android:weightSum="10"
-    android:id="@+id/tree_info"
+    android:id="@+id/water_info"
     android:background="@android:color/background_light">
 
     <LinearLayout
@@ -21,21 +21,7 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_marginBottom="15dp"
-            android:src="@drawable/vang"/>
-
-        <ImageView
-            android:id="@+id/luong_nuoc"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginBottom="15dp"
-            android:src="@drawable/doctor_bag"/>
-
-        <ImageView
-            android:id="@+id/tuoi_cay"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginBottom="15dp"
-            android:src="@drawable/binh_nuoc"/>
+            android:src="@drawable/nguon_nuoc"/>
 
         <ImageView
             android:id="@+id/khoang_cach"
@@ -43,13 +29,6 @@
             android:layout_height="35dp"
             android:layout_marginBottom="15dp"
             android:src="@drawable/khoang_cach"/>
-
-        <ImageView
-            android:id="@+id/tan_suat"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginBottom="15dp"
-            android:src="@drawable/tan_suat"/>
 
         <ImageView
             android:id="@+id/thong_tin"
@@ -68,48 +47,24 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Cây thông"
+            android:text="Điểm lấy nước số 2"
             android:textSize="20dp"
             android:textColor="#212121"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="20dp"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Cần 100ml"
-            android:textSize="20dp"
-            android:textColor="#c92f2f"
-            android:layout_marginBottom="20dp"/>
-        <TextView
-            android:id="@+id/btn_tuoi_ngay"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Tưới ngay"
+            android:text="Cách bạn 20m"
             android:textColor="#FF212121"
             android:textSize="20dp"
-            android:layout_marginTop="5dp"
             android:layout_marginBottom="25dp"
             android:clickable="true"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Cách bạn 50m"
-            android:textSize="20dp"
-            android:textColor="#FF212121"
-            android:layout_marginBottom="25dp"/>
-        <TextView
-            android:id="@+id/btn_tan_suat"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Tần suất tưới"
-            android:textColor="#FF212121"
-            android:textSize="20dp"
-            android:layout_marginBottom="20dp"
-            android:clickable="true"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Tưới đều quanh gốc"
+            android:text="Hoạt động bình thường"
             android:textSize="20dp"
             android:textColor="#FF212121"/>
 
