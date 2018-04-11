@@ -3,49 +3,113 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_gravity="bottom"
-    android:padding="15dp">
+    android:padding="15dp"
+    android:weightSum="10"
+    android:id="@+id/tree_info"
+    android:background="@android:color/background_light">
 
-    <ImageView
-        android:id="@+id/icon_cay"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="15dp"
-        android:src="@drawable/vang"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.5">
 
-    <ImageView
-        android:id="@+id/luong_nuoc"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="15dp"
-        android:src="@drawable/doctor_bag"/>
+        <ImageView
+            android:id="@+id/icon_cay"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/vang"/>
 
-    <ImageView
-        android:id="@+id/tuoi_cay"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="15dp"
-        android:src="@drawable/binh_nuoc"/>
+        <ImageView
+            android:id="@+id/luong_nuoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/doctor_bag"/>
 
-    <ImageView
-        android:id="@+id/khoang_cach"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="15dp"
-        android:src="@drawable/khoang_cach"/>
+        <ImageView
+            android:id="@+id/tuoi_cay"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/binh_nuoc"/>
 
-    <ImageView
-        android:id="@+id/tan_suat"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="15dp"
-        android:src="@drawable/tan_suat"/>
+        <ImageView
+            android:id="@+id/khoang_cach"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/khoang_cach"/>
 
-    <ImageView
-        android:id="@+id/thong_tin"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:src="@drawable/thong_tin"/>
+        <ImageView
+            android:id="@+id/tan_suat"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/tan_suat"/>
+
+        <ImageView
+            android:id="@+id/thong_tin"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/thong_tin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cây thông"
+            android:textSize="20dp"
+            android:textColor="#212121"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cần 100ml"
+            android:textSize="20dp"
+            android:textColor="#c92f2f"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tưới ngay"
+            android:textColor="#FF212121"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cách bạn 50m"
+            android:textSize="20dp"
+            android:textColor="#FF212121"
+            android:layout_marginBottom="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tần suất tưới"
+            android:textColor="#FF212121"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tưới đều quanh gốc"
+            android:textSize="20dp"
+            android:textColor="#FF212121"/>
+
+    </LinearLayout>
 
 </LinearLayout>
