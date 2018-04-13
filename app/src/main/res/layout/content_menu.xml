@@ -36,7 +36,14 @@
             android:layout_gravity="bottom|end"
             android:duplicateParentState="true"
             android:layout_alignParentBottom="true"
-            android:gravity="bottom"></RelativeLayout>
+            android:gravity="bottom">
+
+            <fragment
+                android:id="@+id/fragment"
+                android:name="com.example.longdragon.bkgreengarden.BlankFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
 
     </RelativeLayout>
 
